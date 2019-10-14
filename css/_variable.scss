@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Kantumruy&display=swap');
+
+$default-font-size: 16px;
+$default-font-scale: 1.414;
+
+$h6: $default-font-size * $default-font-scale;
+$h5: $h6 * $default-font-scale;
+$h4: $h5 * $default-font-scale;
+$h3: $h4 * $default-font-scale;
+$h2: $h3 * $default-font-scale;
+$h1: $h2 * $default-font-scale;
