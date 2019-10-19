@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Kantumruy&display=swap");
+p .p {
+  font-size: 16px !important;
+  line-height: 31px !important;
+}
+
+h6,
+.h6 {
+  font-size: 22.624px !important;
+  line-height: 43.834px !important;
+  font-weight: bold;
+}
+
+h5,
+.h5 {
+  font-size: 31.99034px !important;
+  line-height: 61.98128px !important;
+  font-weight: bold;
+}
+
+h4,
+.h4 {
+  font-size: 45.23434px !important;
+  line-height: 87.64152px !important;
+  font-weight: bold;
+}
+
+h3,
+.h3 {
+  font-size: 63.96135px !important;
+  line-height: 123.92512px !important;
+  font-weight: bold;
+}
+
+h2, div.selection ul li span,
+.h2 {
+  font-size: 90.44135px !important;
+  line-height: 175.23011px !important;
+  font-weight: bold;
+}
+
+h1,
+.h1 {
+  font-size: 127.88407px !important;
+  line-height: 247.77538px !important;
+  font-weight: bold;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.not-bold {
+  font-weight: normal;
+}
+
+div.selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15vh 0 0 0;
+}
+
+div.selection ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.selection ul li span {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+div.selection ul li span:hover {
+  color: darkgrey;
+}
+
+div.alphabets-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 50vh;
+}
+
+div.alphabets-options div.type:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  margin-right: 1rem;
+  color: white;
+  background-color: gray;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+div.alphabets-options div.type:first-child div:nth-child(1) {
+  font-size: 31.99034px !important;
+  font-weight: normal;
+}
+
+div.alphabets-options div.type:first-child div:nth-child(2) {
+  font-size: 90.44135px !important;
+  font-weight: bold;
+  line-height: 144.70616px;
+}
+
+div.alphabets-options div.type:not(:first-child) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  margin: 0 1rem;
+  color: white;
+  background-color: gray;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+div.alphabets-options div.type:not(:first-child) div:nth-child(1) {
+  font-size: 31.99034px !important;
+  font-weight: normal;
+}
+
+div.alphabets-options div.type:not(:first-child) div:nth-child(2) {
+  font-size: 90.44135px !important;
+  font-weight: bold;
+  line-height: 144.70616px;
+}
+/*# sourceMappingURL=alphabets.css.map */

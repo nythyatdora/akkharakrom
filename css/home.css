@@ -1,4 +1,63 @@
 @import url("https://fonts.googleapis.com/css?family=Kantumruy&display=swap");
+p .p {
+  font-size: 16px !important;
+  line-height: 31px !important;
+}
+
+h6,
+.h6 {
+  font-size: 22.624px !important;
+  line-height: 43.834px !important;
+  font-weight: bold;
+}
+
+h5,
+.h5 {
+  font-size: 31.99034px !important;
+  line-height: 61.98128px !important;
+  font-weight: bold;
+}
+
+h4,
+.h4 {
+  font-size: 45.23434px !important;
+  line-height: 87.64152px !important;
+  font-weight: bold;
+}
+
+h3,
+.h3 {
+  font-size: 63.96135px !important;
+  line-height: 123.92512px !important;
+  font-weight: bold;
+}
+
+h2,
+.h2 {
+  font-size: 90.44135px !important;
+  line-height: 175.23011px !important;
+  font-weight: bold;
+}
+
+h1,
+.h1 {
+  font-size: 127.88407px !important;
+  line-height: 247.77538px !important;
+  font-weight: bold;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.not-bold {
+  font-weight: normal;
+}
+
 header {
   height: 100vh;
 }

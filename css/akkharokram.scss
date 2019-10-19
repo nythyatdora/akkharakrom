@@ -1,5 +1,4 @@
 @import 'variable';
-@import 'custom_component';
 
 * {
   font-size: $default-font-size !important;
@@ -10,63 +9,4 @@ html,
 body {
   height: 100%;
   margin: 0;
-}
-
-p .p {
-  font-size: $default-font-size !important;
-  line-height: $default-line-height !important;
-}
-
-h6,
-.h6 {
-  font-size: $h6 !important;
-  line-height: $h6-line-height !important;
-  font-weight: bold;
-}
-
-h5,
-.h5 {
-  font-size: $h5 !important;
-  line-height: $h5-line-height !important;
-  font-weight: bold;
-}
-
-h4,
-.h4 {
-  font-size: $h4 !important;
-  line-height: $h4-line-height !important;
-  font-weight: bold;
-}
-
-h3,
-.h3 {
-  font-size: $h3 !important;
-  line-height: $h3-line-height !important;
-  font-weight: bold;
-}
-
-h2,
-.h2 {
-  font-size: $h2 !important;
-  line-height: $h2-line-height !important;
-  font-weight: bold;
-}
-
-h1,
-.h1 {
-  font-size: $h1 !important;
-  line-height: $h1-line-height !important;
-  font-weight: bold;
-}
-
-.no-padding {
-  padding: 0;
-}
-
-.no-margin {
-  margin: 0;
-}
-
-.not-bold {
-  font-weight: normal;
 }
