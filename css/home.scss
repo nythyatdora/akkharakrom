@@ -1,0 +1,13 @@
+@import 'variable';
+
+header {
+  height: 100vh;
+}
+
+body>div>main>div.ui.container.center.aligned {
+  height: 50vh;
+}
+
+body>div>main>div:nth-child(4) {
+  height: 50vh;
+}

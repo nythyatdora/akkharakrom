@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Kantumruy&display=swap");
+header {
+  height: 100vh;
+}
+
+body > div > main > div.ui.container.center.aligned {
+  height: 50vh;
+}
+
+body > div > main > div:nth-child(4) {
+  height: 50vh;
+}
+/*# sourceMappingURL=home.css.map */
