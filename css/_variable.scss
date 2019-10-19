@@ -3,6 +3,14 @@
 $default-font-size: 16px;
 $default-font-scale: 1.414;
 
+$default-line-height: 31px;
+$h6-line-height: $default-line-height * $default-font-scale;
+$h5-line-height: $h6-line-height * $default-font-scale;
+$h4-line-height: $h5-line-height * $default-font-scale;
+$h3-line-height: $h4-line-height * $default-font-scale;
+$h2-line-height: $h3-line-height * $default-font-scale;
+$h1-line-height: $h2-line-height * $default-font-scale;
+
 $h6: $default-font-size * $default-font-scale;
 $h5: $h6 * $default-font-scale;
 $h4: $h5 * $default-font-scale;
