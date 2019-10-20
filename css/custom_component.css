@@ -32,7 +32,7 @@ h3,
   font-weight: bold;
 }
 
-h2, .panel .big-text,
+h2,
 .h2 {
   font-size: 90.44135px !important;
   line-height: 175.23011px !important;
@@ -78,7 +78,7 @@ nav {
       -ms-flex-pack: center;
           justify-content: center;
   height: 300px;
-  background-color: gray;
+  background-color: #0339A6;
   border-radius: 20px;
   cursor: pointer;
   position: relative;
@@ -108,8 +108,8 @@ nav {
   font-weight: bold;
 }
 
-.feature {
-  height: 100vh;
+.comments {
+  margin-bottom: 5rem;
 }
 
 .comment {
@@ -181,24 +181,6 @@ nav {
 
 .comment div.user-profile div.user-info div.user-occupation {
   font-size: 15.8368px !important;
-}
-
-.panel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  height: 100vh;
-}
-
-.panel .big-text {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  height: 50%;
 }
 
 footer {
@@ -274,12 +256,20 @@ footer div.footer-body div.social-media div {
   height: 2rem;
 }
 
-footer div.footer-body div.social-media div a {
-  color: black;
-}
-
 footer div.footer-body div.social-media div a svg {
   font-size: 31.99034px !important;
+}
+
+footer div.footer-body div.social-media div a:nth-child(1) {
+  color: #4267B2;
+}
+
+footer div.footer-body div.social-media div a:nth-child(2) {
+  color: #1DA1F2;
+}
+
+footer div.footer-body div.social-media div a:nth-child(3) {
+  color: #333333;
 }
 
 footer div.footer-body div.page-description {

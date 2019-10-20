@@ -32,7 +32,7 @@ h3,
   font-weight: bold;
 }
 
-h2,
+h2, .panel .big-text,
 .h2 {
   font-size: 90.44135px !important;
   line-height: 175.23011px !important;
@@ -59,7 +59,81 @@ h1,
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0339A6;
   height: 100vh;
+}
+
+header .khmer-bread h1 {
+  color: white;
+}
+
+header .khmer-bread h1 span {
+  color: #D9042B;
+}
+
+header .khmer-bread h5 {
+  color: white;
+}
+
+.goals h2, .goals .panel .big-text, .panel .goals .big-text {
+  color: #0339A6;
+}
+
+.goals h5 {
+  color: #0339A6;
+}
+
+.router {
+  margin-bottom: 5rem !important;
+}
+
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background-color: #D9042B;
+  height: 100vh;
+}
+
+.panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: #0D0D0D;
+}
+
+.panel .big-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 50%;
+  color: white;
 }
 
 body > div > main > div.ui.container.center.aligned {

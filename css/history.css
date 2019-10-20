@@ -70,6 +70,11 @@ body {
   margin: 0;
 }
 
+.ui.grid {
+  margin: 0 0;
+  padding: 0 0;
+}
+
 p .p {
   font-size: 16px !important;
   line-height: 31px !important;

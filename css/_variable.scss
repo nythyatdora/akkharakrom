@@ -18,6 +18,12 @@ $h3: $h4 * $default-font-scale;
 $h2: $h3 * $default-font-scale;
 $h1: $h2 * $default-font-scale;
 
+$primary-color: #0339A6;
+$secondary-color: #D9042B;
+$tertiary-color: white;
+$contrast-secondary-color: #737373;
+$contrast-tertiary-color: #0D0D0D;
+
 p .p {
     font-size: $default-font-size !important;
     line-height: $default-line-height !important;

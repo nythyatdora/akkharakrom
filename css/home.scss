@@ -1,7 +1,66 @@
 @import 'variable';
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $primary-color;
+
   height: 100vh;
+
+  .khmer-bread {
+    h1 {
+      color: $tertiary-color;
+
+      span {
+        color: $secondary-color;
+      }
+    }
+
+    h5 {
+      color: $tertiary-color;
+    }
+  }
+}
+
+.goals {
+  h2 {
+    color: $primary-color;
+  }
+
+  h5 {
+    color: $primary-color;
+  }
+}
+
+.router {
+  margin-bottom: 5rem !important;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: $tertiary-color;
+  background-color: $secondary-color;
+  height: 100vh;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: $contrast-tertiary-color;
+
+  .big-text {
+    @extend h2;
+    align-self: center;
+    height: 50%;
+
+    color: $tertiary-color;
+  }
 }
 
 body>div>main>div.ui.container.center.aligned {
