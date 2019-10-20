@@ -1,0 +1,25 @@
+@import 'akkharokram.scss';
+@import 'variable';
+
+div.ui{
+    overflow: hidden;
+}
+div.set1,
+div.set2{
+    width: 70%;
+    display: -webkit-box;
+    margin: 0 auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+div.set1 > div.alphabet-discription > h3{
+    color: blue;
+}
+div.set2{
+    div.alphabet-discription{
+        h3{
+            color: red;
+        }
+    }
+}

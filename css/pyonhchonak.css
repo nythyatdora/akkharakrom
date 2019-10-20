@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css?family=Kantumruy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kantumruy&display=swap");
+nav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.route {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+  background-color: gray;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.route img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.route div:nth-child(2) {
+  z-index: 50;
+  color: white;
+  font-size: 22.624px !important;
+  margin-bottom: 2.5rem;
+}
+
+.route div:nth-child(3) {
+  z-index: 50;
+  color: white;
+  font-size: 63.96135px !important;
+  font-weight: bold;
+}
+
+.feature {
+  height: 100vh;
+}
+
+.comment {
+  height: 350px;
+  border-radius: 30px;
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.comment div.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 3rem;
+  height: 70%;
+}
+
+.comment div.user-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto 3rem 2rem 3rem;
+  height: 30%;
+}
+
+.comment div.user-profile img {
+  background-size: cover;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 4rem;
+}
+
+.comment div.user-profile div.user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 1rem;
+}
+
+.comment div.user-profile div.user-info div.user-name {
+  font-size: 22.624px !important;
+  font-weight: bold;
+}
+
+.comment div.user-profile div.user-info div.user-occupation {
+  font-size: 15.8368px !important;
+}
+
+.panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100vh;
+}
+
+.panel .big-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 50%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+footer div.back-to-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30vh;
+}
+
+footer div.back-to-top a {
+  color: black;
+  text-align: center;
+}
+
+footer div.back-to-top a svg.fa-arrow-up {
+  font-size: 63.96135px !important;
+}
+
+footer div.back-to-top a div:nth-child(2) {
+  font-size: 22.624px !important;
+  line-height: 56.56px !important;
+}
+
+footer div.footer-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+}
+
+footer div.footer-body div.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+footer div.footer-body div.social-media div {
+  height: 2rem;
+}
+
+footer div.footer-body div.social-media div a {
+  color: black;
+}
+
+footer div.footer-body div.social-media div a svg {
+  font-size: 31.99034px !important;
+}
+
+footer div.footer-body div.page-description {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 5%;
+  text-align: right;
+}
+
+footer div.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+}
+
+footer div.copyright span {
+  margin-left: 1rem;
+}
+
+footer div.copyright span span {
+  margin-left: 0.25rem;
+  font-weight: bold;
+}
+
+* {
+  font-size: 16px !important;
+  font-family: 'Kantumruy', sans-serif !important;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+p .p {
+  font-size: 16px !important;
+  line-height: 31px !important;
+}
+
+h6,
+.h6 {
+  font-size: 22.624px !important;
+  line-height: 43.834px !important;
+  font-weight: bold;
+}
+
+h5, .comment div.description,
+.h5 {
+  font-size: 31.99034px !important;
+  line-height: 61.98128px !important;
+  font-weight: bold;
+}
+
+h4,
+.h4 {
+  font-size: 45.23434px !important;
+  line-height: 87.64152px !important;
+  font-weight: bold;
+}
+
+h3,
+.h3 {
+  font-size: 63.96135px !important;
+  line-height: 123.92512px !important;
+  font-weight: bold;
+}
+
+h2, .panel .big-text,
+.h2 {
+  font-size: 90.44135px !important;
+  line-height: 175.23011px !important;
+  font-weight: bold;
+}
+
+h1,
+.h1 {
+  font-size: 127.88407px !important;
+  line-height: 247.77538px !important;
+  font-weight: bold;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.not-bold {
+  font-weight: normal;
+}
+
+div.container {
+  width: 60%;
+  display: -webkit-box;
+  margin: 0 auto;
+  padding: 0 5%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+div.container div.alphabet-discription {
+  margin: 0px 1em;
+  -webkit-transition: 0.40s linear;
+  transition: 0.40s linear;
+}
+
+div.set1 > div.alphabet-discription > h3 {
+  color: blue;
+}
+
+div.set2 > div.alphabet-discription > h3 {
+  color: red;
+}
+/*# sourceMappingURL=pyonhchonak.css.map */
