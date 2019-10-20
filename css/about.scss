@@ -30,27 +30,27 @@ div.label{
         color:blue;
     }
 }
+
 div.container{
     width: 100%;
     display: -webkit-box;
     margin: 0 auto;
     padding: 0 5%;
     overflow-x: scroll;
-    /*load*/
     div.user-discription{
-        width: 278px;
+        width: 280px;
         height: 500px;
         margin: 0px 1em;
         transition: 0.40s linear;
         div.user-image{
             padding: 0;
-            width: 278px;
+            width: 280px;
             height: 420px;
             background-color: rgba(0, 0, 0, 0.25);
             border-radius: 60px;
             transition: 0.40s linear;
             img{
-                width: 278px;
+                width: 280px;
                 height: 420px;
                 border-radius: 60px;
                 transition: 0.40s linear;
@@ -63,17 +63,16 @@ div.container{
         transition: 0.40s linear;
         }
     }
-    /*hover*/
     div.user-discription:hover{
-        width: 391px;
+        width: 380px;
         height: 750px;
         div.user-image{
             padding: 0px;
-            width: 391px;
-            height: 580px;
+            width: 380px;
+            height: 670px;
             img{
-                width: 391px;
-                height: 580px;
+                width: 380px;
+                height: 670px;
                 box-shadow: 5px 5px #888888;
             }
         }
