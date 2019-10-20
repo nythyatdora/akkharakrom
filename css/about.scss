@@ -1,0 +1,268 @@
+@import 'akkharokram.scss';
+@import 'variable';
+
+::-webkit-scrollbar {
+    /*size*/
+    display: none;
+}
+header{
+    height: 300px;
+    div.row{
+      height: 300px;
+    }
+    
+}
+div.heart > svg{
+  float: right;
+  color: red;
+  font-size: 30px !important;
+}
+
+div.label{
+    display: -webkit-box;
+    h2{
+        display: inline;
+    }
+    h2.label-1{
+        color: red;
+    }
+    h2.label-2{
+        color:blue;
+    }
+}
+div.container{
+    width: 100%;
+    display: -webkit-box;
+    margin: 0 auto;
+    padding: 0 5%;
+    overflow-x: scroll;
+    /*load*/
+    div.user-discription{
+        width: 278px;
+        height: 500px;
+        margin: 0px 1em;
+        transition: 0.40s linear;
+        div.user-image{
+            padding: 0;
+            width: 278px;
+            height: 420px;
+            background-color: rgba(0, 0, 0, 0.25);
+            border-radius: 60px;
+            transition: 0.40s linear;
+            img{
+                width: 278px;
+                height: 420px;
+                border-radius: 60px;
+                transition: 0.40s linear;
+            }
+        }
+        div.username > h5{
+        margin-block-end: 0.5em;
+        margin-block-start: 0.5em;
+        text-align: center;
+        transition: 0.40s linear;
+        }
+    }
+    /*hover*/
+    div.user-discription:hover{
+        width: 391px;
+        height: 750px;
+        div.user-image{
+            padding: 0px;
+            width: 391px;
+            height: 580px;
+            img{
+                width: 391px;
+                height: 580px;
+                box-shadow: 5px 5px #888888;
+            }
+        }
+        div.username > h5{
+            font-size: 45.23434px !important; 
+        }
+    }
+
+}
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  
+  footer div.back-to-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 30vh;
+  }
+  
+  footer div.back-to-top a {
+    color: black;
+    text-align: center;
+  }
+  
+  footer div.back-to-top a svg.fa-arrow-up {
+    font-size: 63.96135px !important;
+  }
+  
+  footer div.back-to-top a div:nth-child(2) {
+    font-size: 22.624px !important;
+    line-height: 56.56px !important;
+  }
+  
+  footer div.footer-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 10vh;
+  }
+  
+  footer div.footer-body div.social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  
+  footer div.footer-body div.social-media div {
+    height: 2rem;
+  }
+  
+  footer div.footer-body div.social-media div a {
+    color: black;
+  }
+  
+  footer div.footer-body div.social-media div a svg {
+    font-size: 31.99034px !important;
+  }
+  
+  footer div.footer-body div.page-description {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 5%;
+    text-align: right;
+  }
+  
+  footer div.copyright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 10vh;
+  }
+  
+  footer div.copyright span {
+    margin-left: 1rem;
+  }
+  
+  footer div.copyright span span {
+    margin-left: 0.25rem;
+    font-weight: bold;
+  }
+  
+  * {
+    font-size: 16px !important;
+    font-family: 'Kantumruy', sans-serif !important;
+  }
+
+/*main*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+p .p {
+  font-size: 16px !important;
+  line-height: 31px !important;
+}
+
+h6,
+.h6 {
+  font-size: 22.624px !important;
+  line-height: 43.834px !important;
+  font-weight: bold;
+}
+
+h5, .comment div.description,
+.h5 {
+  font-size: 31.99034px !important;
+  line-height: 61.98128px !important;
+  font-weight: bold;
+}
+
+h4,
+.h4 {
+  font-size: 45.23434px !important;
+  line-height: 87.64152px !important;
+  font-weight: bold;
+}
+
+h3,
+.h3 {
+  font-size: 63.96135px !important;
+  line-height: 123.92512px !important;
+  font-weight: bold;
+}
+
+h2, .panel .big-text,
+.h2 {
+  font-size: 90.44135px !important;
+  line-height: 175.23011px !important;
+  font-weight: bold;
+}
+
+h1,
+.h1 {
+  font-size: 127.88407px !important;
+  line-height: 247.77538px !important;
+  font-weight: bold;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.not-bold {
+  font-weight: normal;
+}
+/*# sourceMappingURL=akkharokram.css.map */
