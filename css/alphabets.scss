@@ -1,5 +1,27 @@
 @import 'variable';
 
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $primary-color;
+  height: 100vh;
+
+  .khmer-bread {
+    h1 {
+      color: $tertiary-color;
+
+      span {
+        color: $secondary-color;
+      }
+    }
+
+    h5 {
+      color: $tertiary-color;
+    }
+  }
+}
+
 div.selection {
   display: flex;
   flex-direction: column;

@@ -3,4 +3,9 @@ $(document).ready(() => {
         $("html, body").animate({ scrollTop: 0 }, 1000); 
         return false; 
     }); 
+    $('#mobile_item').click(function(){
+        $('.ui.sidebar')
+        .sidebar('toggle')
+        ;
+    })
 });

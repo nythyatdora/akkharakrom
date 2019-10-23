@@ -1,11 +1,11 @@
 @import 'variable';
+@import 'akkharokram.scss';
 
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: $primary-color;
-
   height: 100vh;
 
   .khmer-bread {
@@ -69,4 +69,17 @@ body>div>main>div.ui.container.center.aligned {
 
 body>div>main>div:nth-child(4) {
   height: 50vh;
+}
+div.comment{
+  background-color: $primary-color;
+    div.description{
+      color: $tertiary-color;
+    }
+    div.user-profile{
+      div.user-info{
+        div{
+          color: $tertiary-color;
+        }
+     }
+    }
 }

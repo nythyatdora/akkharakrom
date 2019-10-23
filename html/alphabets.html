@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ទំព័រដើម</title>
+    <title>អក្ខរក្រម</title>
     <link rel="stylesheet" type="text/css" href="../semantic-ui/semantic.min.css">
     <link rel="stylesheet" href="../css/akkharokram.css">
     <link rel="stylesheet" href="../css/custom_component.css">
@@ -23,52 +23,88 @@
 
 <body>
     <div class="wrapper">
-        <nav class="ui fixed text menu borderless">
-            <div class="ui container grid">
-                <div class="ui item right floated">
-                    <a href="" class="item active h6">ទំព័រដើម</a>
-                    <a href="" class="item h6">ប្រវត្តិ</a>
-                    <a href="" class="item h6">អក្ខរក្រម</a>
-                    <a href="" class="item h6">របៀបសរសេរ</a>
-                    <a href="" class="item h6">អំពីយើង</a>
+        <nav class="ui fixed text menu">
+            <div class="ui grid">
+                <div class="computer only row">
+                    <div class="ui container grid ">
+                        <div class="ui item right floated inverted">
+                                <a href="home.html" class="item h6">ទំព័រដើម</a>
+                                <a href="history.html" class="item h6">ប្រវត្តិ</a>
+                                <a href="alphabets.html" class="item active h6">អក្ខរក្រម</a>
+                                <a href="waytowrite.html" class="item h6">របៀបសរសេរ</a>
+                                <a href="about.html" class="item h6">អំពីយើង</a>
+                        </div>
+                    </div>
+                </div>   
+                <div class="tablet mobile only row">
+                <div class="column">
+                    <div class="ui menu">
+                        <a id="mobile_item" class="item"><i class="fas fa-bars"></i></a>
+                    </div>
                 </div>
             </div>
         </nav>
-<!-- 
-        <header class="ui container grid">
-        </header> -->
-
-        <main>
+            <div class="ui pushable segment item container grid">
+                    <div class="ui sidebar vertical menu right ">
+                        <a href="home.html" class="item h6">ទំព័រដើម</a>
+                        <a href="history.html" class="item h6">ប្រវត្តិ</a>
+                        <a href="alphabets.html" class="item active h6">អក្ខរក្រម</a>
+                        <a href="waytowrite.html" class="item h6">របៀបសរសេរ</a>
+                        <a href="about.html" class="item h6">អំពីយើង</a>
+                    </div>
+            </div>
+        <header>
             <div class="ui container grid">
                 <div class="row">
-                    <div class="sixteen wide column">
-                        <div class="selection">
-                            <span class="h5 not-bold">សូមជ្រើសរើសមួយ</span>
-                            <ul>
-                                <li>
-                                    <span>ព្យញ្ជនៈ</span>
-                                </li>
-                                <li>
-                                    <span>ស្រៈ</span>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="sixteen wide column middle aligned khmer-bread">
+                        <h1>ស្រៈ<span class="h1">ខ្មែរ</span> ព្យញ្ជនៈ<span class="h1">ខ្មែរ</span></h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="ui container grid router">
+                <div class="row">
+                    <div class="six wide column">
+                        <a class="route" href="pyonhchonak.html">
+                            <img src="" alt="">
+                            <div>ព្យញ្ជនៈ</div>
+                            <div>៣៣តួ</div>
+                        </a>
+                    </div>
+
+                    <div class="five wide column">
+                        <a class="route" href="pyonhchonak-r.html">
+                            <img src="" alt="">
+                            <div>ពពួកសម្លេង</div>
+                            <div>អ</div>
+                        </a>
+                    </div>
+
+                    <div class="five wide column">
+                        <a class="route" href="pyonhchonak-o.html">
+                            <img src="" alt="">
+                            <div>ពពួកសម្លេង</div>
+                            <div>អ៊</div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="sixteen column wide">
-                        <div class="alphabets-options">
-                            <div class="type">
-                                <div>ពពួក</div>
-                                <div>អ</div>
-                            </div>
+                    <div class="eight wide column">
+                        <a class="route" href="srak-nisay.html">
+                            <img src="" alt="">
+                            <div>ស្រៈ</div>
+                            <div>និស្ស័យ</div>
+                        </a>
+                    </div>
 
-                            <div class="type">
-                                <div>ពពួក</div>
-                                <div>អ៊</div>
-                            </div>
-                        </div>
+                    <div class="eight wide column">
+                        <a class="route" href="srak-penhtor.html">
+                            <img src="" alt="">
+                            <div>ស្រៈ</div>
+                            <div>ពេញតួ</div>
+                        </a>
                     </div>
                 </div>
             </div>

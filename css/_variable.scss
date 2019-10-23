@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Kantumruy&display=swap');
 
+$multiply-font-scale: 1.414;
 $default-font-size: 16px;
-$default-font-scale: 1.414;
+$default-font-scale: $mutliply-font-scale;
 
 $default-line-height: 31px;
 $h6-line-height: $default-line-height * $default-font-scale;
@@ -23,6 +24,31 @@ $secondary-color: #D9042B;
 $tertiary-color: white;
 $contrast-secondary-color: #737373;
 $contrast-tertiary-color: #0D0D0D;
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  
+}
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  
+}
+
+/* Widescreen Monitor */
+@media only screen and (min-width: 1920px) {
+
+}
 
 p .p {
     font-size: $default-font-size !important;

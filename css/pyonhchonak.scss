@@ -1,0 +1,94 @@
+@import 'akkharokram.scss';
+@import 'variable';
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $primary-color;
+    height: 100vh;
+        .khmer-bread {
+            h1 {
+                color: $secondary-color;
+                    span {
+                        color: $tertiary-color;
+                    }
+            }
+        h5 {
+            color: $tertiary-color;
+        }
+    } 
+}
+
+header.header1{
+    background-color: $secondary-color;
+    .khmer-bread {
+        h1 {
+            color: $tertiary-color;
+            
+                span {
+                    color: $primary-color;
+                }
+        }
+    }
+}
+
+header.header2{
+    .khmer-bread {
+        h1 {
+            color: $tertiary-color;
+                span {
+                    color: $secondary-color;
+                }
+        }
+    }
+}
+
+div.ui{
+    overflow: hidden;
+}
+
+div.set1,
+ div.set2,
+  div.set3{
+    padding-left: 5em;
+    width: 100%;
+    display: -webkit-box;
+    margin: 0 auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+        div.alphabet-discription{
+            width: 250px;
+                h2{
+                    color: $secondary-color;
+                }
+            
+    }
+}
+
+div.set1{
+    background-color: $primary-color;
+    div.alphabet-discription{
+        h2{
+            color: $tertiary-color;
+        }
+    }
+}
+
+div.set2{
+    background-color: $secondary-color;
+    div.alphabet-discription{
+        h2{
+            color: $primary-color;
+        }
+    }
+}
+
+div.set3{
+    background-color: $primary-color;
+    div.alphabet-discription{
+        h2{
+            color: $secondary-color;
+        }
+    }
+}
