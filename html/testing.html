@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"Switching Photo"</title>
+        <script>
+            var i = 0;
+            var audio_;
+            var paths = "audio/pyonhchonak/";
+            var audios = ["ក.mp3", "ខ.mp3", "គ.mp3", "ឃ.mp3"];
+
+            function nex(){
+                audio_ = paths + "" + audio_;
+                document.getElementById('audio').src=audio_;
+                var audio = document.getElementById("audio");
+                audio.play()
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <div>
+            <audio src="../audio/pyonhchonak/ក.mp3" id="audio"></audio>
+            <input type="button" id="next" value="&gt&gt" onclick="nex()"/>
+        </div>
+    </body>
+</html>

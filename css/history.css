@@ -210,6 +210,12 @@ div.history-route div:nth-child(1) div.body div.summary {
   font-size: 22px !important;
 }
 
+div.history-route div:nth-child(1) div.body img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 0.5em;
+}
+
 div.history-route div:nth-child(1) div.footer {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -69,8 +69,24 @@ body {
   margin: 0;
 }
 
-.ui.grid {
-  margin: 0 0;
-  padding: 0 0;
+.ui.grid.segment {
+  margin: 0;
+  border-radius: .28571429rem;
+  border: none;
+}
+
+.ui.menu > .container, .ui.menu > .grid {
+  width: 100%;
+}
+
+.ui.menu .menu {
+  float: right;
+  margin: 0;
+  width: 35px;
+  background: none;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: none;
 }
 /*# sourceMappingURL=akkharokram.css.map */

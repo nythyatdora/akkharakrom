@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Kantumruy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kantumruy&display=swap");
+p .p {
+  font-size: 16px !important;
+  line-height: 31px !important;
+}
+
+h6,
+.h6 {
+  font-size: 22.624px !important;
+  line-height: 43.834px !important;
+  font-weight: bold;
+}
+
+h5,
+.h5 {
+  font-size: 31.99034px !important;
+  line-height: 61.98128px !important;
+  font-weight: bold;
+}
+
+h4,
+.h4 {
+  font-size: 45.23434px !important;
+  line-height: 87.64152px !important;
+  font-weight: bold;
+}
+
+h3,
+.h3 {
+  font-size: 63.96135px !important;
+  line-height: 123.92512px !important;
+  font-weight: bold;
+}
+
+h2,
+.h2 {
+  font-size: 90.44135px !important;
+  line-height: 175.23011px !important;
+  font-weight: bold;
+}
+
+h1,
+.h1 {
+  font-size: 127.88407px !important;
+  line-height: 247.77538px !important;
+  font-weight: bold;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.not-bold {
+  font-weight: normal;
+}
+
+* {
+  font-size: 16px !important;
+  font-family: 'Kantumruy', sans-serif !important;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.ui.grid {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+p .p {
+  font-size: 16px !important;
+  line-height: 31px !important;
+}
+
+h6,
+.h6 {
+  font-size: 22.624px !important;
+  line-height: 43.834px !important;
+  font-weight: bold;
+}
+
+h5,
+.h5 {
+  font-size: 31.99034px !important;
+  line-height: 61.98128px !important;
+  font-weight: bold;
+}
+
+h4,
+.h4 {
+  font-size: 45.23434px !important;
+  line-height: 87.64152px !important;
+  font-weight: bold;
+}
+
+h3,
+.h3 {
+  font-size: 63.96135px !important;
+  line-height: 123.92512px !important;
+  font-weight: bold;
+}
+
+h2,
+.h2 {
+  font-size: 90.44135px !important;
+  line-height: 175.23011px !important;
+  font-weight: bold;
+}
+
+h1,
+.h1 {
+  font-size: 127.88407px !important;
+  line-height: 247.77538px !important;
+  font-weight: bold;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.not-bold {
+  font-weight: normal;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0339A6;
+  height: 100vh;
+}
+
+header .khmer-bread h1 {
+  color: #D9042B;
+}
+
+header .khmer-bread h1 span {
+  color: white;
+}
+
+header .khmer-bread h5 {
+  color: white;
+}
+
+header.header1 {
+  background-color: #D9042B;
+}
+
+header.header1 h1 {
+  color: #0339A6;
+}
+
+div.ui {
+  overflow: hidden;
+}
+
+div.set1,
+div.set2 {
+  padding-left: 5em;
+  width: 100%;
+  display: -webkit-box;
+  margin: 0 auto;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+div.set1 div.alphabet-discription,
+div.set2 div.alphabet-discription {
+  width: 265px;
+}
+
+div.set1 div.alphabet-discription h2,
+div.set2 div.alphabet-discription h2 {
+  text-align: center;
+  color: white;
+}
+
+div.set1 {
+  background-color: #D9042B;
+}
+
+div.set2 {
+  background-color: #0339A6;
+}
+/*# sourceMappingURL=srak.css.map */

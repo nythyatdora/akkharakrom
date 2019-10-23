@@ -58,6 +58,33 @@ h1,
   font-weight: normal;
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0339A6;
+  height: 100vh;
+}
+
+header .khmer-bread h1 {
+  color: white;
+}
+
+header .khmer-bread h1 span {
+  color: #D9042B;
+}
+
+header .khmer-bread h5 {
+  color: white;
+}
+
 div.selection {
   display: -webkit-box;
   display: -ms-flexbox;
